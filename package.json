@@ -1,0 +1,34 @@
+{
+  "name": "nd-aspect",
+  "version": "0.0.0",
+  "description": "在指定方法执行的前后插入特定函数，必须与 nd-events 一起使用。",
+  "keywords": [],
+  "homepage": "",
+  "author": "crossjs <liwenfu@crossjs.com>",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cmd-wrap": "^0.1.0",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-exec": "^0.4.6",
+    "matchdep": "^0.3.0"
+  },
+  "spm": {
+    "main": "index.js",
+    "dependencies": {},
+    "devDependencies": {
+      "expect.js": "0.3.1",
+      "sinon": "1.6.0",
+      "nd-events": "0.0.0",
+      "nd-class": "0.0.0"
+    }
+  }
+}
