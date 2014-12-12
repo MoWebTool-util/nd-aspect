@@ -3,21 +3,21 @@
   "version": "0.0.0",
   "description": "在指定方法执行的前后插入特定函数，必须与 nd-events 一起使用。",
   "keywords": [],
-  "homepage": "",
+  "homepage": "https://github.com/ndfront/nd-aspect",
   "author": "crossjs <liwenfu@crossjs.com>",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/ndfront/nd-aspect.git"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/ndfront/nd-aspect/issues"
   },
   "licenses": "MIT",
   "devDependencies": {
     "grunt": "^0.4.5",
-    "grunt-cmd-wrap": "^0.2.2",
     "grunt-contrib-jshint": "^0.10.0",
     "grunt-exec": "^0.4.6",
+    "grunt-spm-server": "^0.0.1",
     "matchdep": "^0.3.0"
   },
   "spm": {
