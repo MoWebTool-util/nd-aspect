@@ -1,8 +1,11 @@
+'use strict';
+
 var expect = require('expect.js');
-var sinon = require('sinon');
 var Class = require('nd-class');
 var Events = require('nd-events');
 var Aspect = require('../index');
+
+/*globals describe,it*/
 
 describe('aspect', function() {
 
