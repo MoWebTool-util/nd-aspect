@@ -25,7 +25,7 @@
   "devDependencies": {
     "expect.js": "^0.3.1",
     "nd-class": "^3.0.0",
-    "nd-events": "3.0.0"
+    "nd-events": "^3.0.0"
   },
   "peerDependencies": {
     "nd-events": "3.0.0"
