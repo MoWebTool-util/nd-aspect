@@ -1,10 +1,17 @@
 {
   "name": "nd-aspect",
-  "version": "0.0.0",
-  "description": "在指定方法执行的前后插入特定函数，必须与 nd-events 一起使用。",
+  "version": "3.0.0",
+  "description": "AOP：在指定方法执行的前后插入特定函数。",
   "keywords": [],
   "homepage": "https://github.com/ndfront/nd-aspect",
-  "author": "crossjs <liwenfu@crossjs.com>",
+  "author": {
+    "name": "crossjs",
+    "email": "liwenfu@crossjs.com"
+  },
+  "scripts": {
+    "test": "mocha --bail --timeout 200 --slow 99999 tests/**/*-spec.js",
+    "coverage": "node_modules/isparta/bin/isparta cover node_modules/mocha/bin/_mocha -- --bail --timeout 200 --slow 99999 -R dot tests/**/*-spec.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/ndfront/nd-aspect.git"
@@ -13,14 +20,14 @@
     "url": "https://github.com/ndfront/nd-aspect/issues"
   },
   "licenses": "MIT",
-  "devDependencies": {},
-  "spm": {
-    "main": "index.js",
-    "dependencies": {},
-    "devDependencies": {
-      "expect.js": "0.3.1",
-      "nd-events": "0.0.0",
-      "nd-class": "0.0.0"
-    }
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "nd-class": "^3.0.0",
+    "nd-events": "3.0.0"
+  },
+  "peerDependencies": {
+    "nd-events": "3.0.0"
   }
 }

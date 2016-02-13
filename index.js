@@ -9,9 +9,6 @@
 //  - http://code.google.com/p/jquery-aop/
 //  - http://lazutkin.com/blog/2008/may/18/aop-aspect-javascript-dojo/
 
-// Helpers
-// -------
-
 var eventSplitter = /\s+/;
 
 /*jshint maxparams:4 */

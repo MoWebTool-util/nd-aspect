@@ -1,13 +1,15 @@
 # nd-aspect
 
-[![spm version](http://spm.crossjs.com/badge/nd-aspect)](http://spm.crossjs.com/package/nd-aspect)
+[![Travis](https://img.shields.io/travis/ndfront/nd-aspect.svg?style=flat-square)](https://github.com/ndfront/nd-aspect)
+[![Coveralls](https://img.shields.io/coveralls/ndfront/nd-aspect.svg?style=flat-square)](https://github.com/ndfront/nd-aspect)
+[![NPM version](https://img.shields.io/npm/v/nd-aspect.svg?style=flat-square)](https://npmjs.org/package/nd-aspect)
 
-> 在指定方法执行的前后插入特定函数，必须与 nd-events 一起使用。fork 自 [arale-base](https://github.com/aralejs/base)
+> AOP：在指定方法执行的前后插入特定函数。fork 自 [arale-base](https://github.com/aralejs/base)
 
 ## 安装
 
-```
-$ spm install nd-aspect --save
+```bash
+$ npm install nd-aspect --save
 ```
 
 ## 使用
